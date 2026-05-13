@@ -1,0 +1,28 @@
+Create device memory
+Transfer to global memory
+Invoke CNN computation kernel
+Using thread block dims: 16 16 1
+Using grid dims: 7 7 256
+Time: 0.948019 s
+Perf: 173.432 GFlops
+PASS
+Tue May 12 20:47:14 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 565.77.01              Driver Version: 566.36         CUDA Version: 12.7     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 1650 ...    On  |   00000000:58:00.0 Off |                  N/A |
+| N/A   58C    P0             17W /   35W |       0MiB /   4096MiB |     26%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
