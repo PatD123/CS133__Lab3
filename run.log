@@ -2,11 +2,11 @@ Create device memory
 Transfer to global memory
 Invoke CNN computation kernel
 Using thread block dims: 16 16 1
-Using grid dims: 7 7 16
-Time: 0.205083 s
-Perf: 801.708 GFlops
+Using grid dims: 7 7 8
+Time: 0.201258 s
+Perf: 816.945 GFlops
 PASS
-Sat May 16 00:49:11 2026       
+Sat May 16 00:51:52 2026       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 565.77.01              Driver Version: 566.36         CUDA Version: 12.7     |
 |-----------------------------------------+------------------------+----------------------+
@@ -15,7 +15,7 @@ Sat May 16 00:49:11 2026
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
 |   0  NVIDIA GeForce GTX 1650 ...    On  |   00000000:58:00.0 Off |                  N/A |
-| N/A   57C    P0             18W /   35W |       0MiB /   4096MiB |      0%      Default |
+| N/A   58C    P0             33W /   35W |       0MiB /   4096MiB |     23%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          

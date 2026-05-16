@@ -9,7 +9,7 @@ __global__ void cnn_gpu(
     float* output)
 {
 
-  const int lookOut = 16;
+  const int lookOut = 32;
 
   // Shared memory
   __shared__ float shd[36][36];
