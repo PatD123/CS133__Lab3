@@ -1,2 +1,2 @@
-export GRID='7 7 256'
+export GRID='7 7 16'
 export BLOCK='16 16 1'
